@@ -1,6 +1,7 @@
 ---
 import BlogPostItem from "@/components/BlogPostItem.astro";
 import BaseLayout from "@/layouts/BaseLayout.astro";
+import type { MarkdownInstance } from "astro";
 
 export async function getStaticPaths() {
 	const allPosts = await Astro.glob("../posts/*.md");
