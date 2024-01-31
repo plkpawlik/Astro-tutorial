@@ -2,9 +2,11 @@
 	"extends": "astro/tsconfigs/strict",
 	"compilerOptions": {
 		"noImplicitAny": false,
-		"baseUrl": ".",
+		"baseUrl": "C:/Users/kampawli/Code/Astro/tutorial",
 		"paths": {
 			"@/*": ["src/*"],
 		},
+		"jsx": "react-jsx",
+		"jsxImportSource": "preact",
 	},
 }
