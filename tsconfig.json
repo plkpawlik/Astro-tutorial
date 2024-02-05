@@ -1,7 +1,9 @@
 {
 	"extends": "astro/tsconfigs/strict",
 	"compilerOptions": {
+		"allowJs": true,
 		"noImplicitAny": false,
+		"strictNullChecks": true,
 		"baseUrl": "C:/Users/kampawli/Code/Astro/tutorial",
 		"paths": {
 			"@/*": ["src/*"],
